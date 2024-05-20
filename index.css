@@ -27,6 +27,7 @@ body {
   /*width: 100%;*/
   left: 0px;
   right: 0px;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -168,6 +169,7 @@ body {
 .select-color-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .label-and-selected-color-button-container {
@@ -225,6 +227,9 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
   width: 180px;
+  position: absolute;
+  top: 60px;
+  left: 130px;
 }
 
 .color {
